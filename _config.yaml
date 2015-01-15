@@ -1,0 +1,30 @@
+timezone: Australia/Sydney
+encoding: utf-8
+
+## Conversion
+markdown:    kramdown
+highlighter: pygments
+lsi:         true
+paginate:    5
+
+# Extensions
+
+
+# Kramdown settings
+kramdown:
+  input: GFM
+
+# Layout
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: "posts"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
