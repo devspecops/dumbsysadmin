@@ -44,15 +44,27 @@ task :server do
   sh 'bundle exec jekyll serve'
 end
 
+desc 'Build Jekyll'
+task :build_jekyll do
+  sh 'bundle exec jekyll build -q'
+end
+
+desc 'HTML Test'
+task :test_html => :build do
+  path = File.join(ROOT, '_site')
+  HTML::Proofer.new(path).run
+end
+
+desc 'Test'
+task :test => :test_html
+
+desc 'Build'
+task :build => :build_jekyll
+
 namespace :ci do
   desc 'Build'
-  task :build do
-    sh 'bundle exec jekyll build -q'
-  end
+  task :build => :build_jekyll
 
   desc 'Test'
-  task :test => :build do
-    path = File.join(ROOT, '_site')
-    HTML::Proofer.new(path).run
-  end
+  task :test => :test_html
 end
