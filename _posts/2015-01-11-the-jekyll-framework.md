@@ -203,20 +203,20 @@ Populate the page with the following html, leaving the YAML front matter in plac
     <title>Place your title here</title>
 
     <!-- Bootstrap theme -->
-    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="{% raw %}{{ site.baseurl }}{% endraw %}/stylesheets/bootstrap.min.css">
 
     <!-- Default theme from GitHub -->
-    <link rel="stylesheet" href="/stylesheets/styles.css">
-    <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="{% raw %}{{ site.baseurl }}{% endraw %}/stylesheets/styles.css">
+    <link rel="stylesheet" href="{% raw %}{{ site.baseurl }}{% endraw %}/stylesheets/pygment_trac.css">
 
     <!-- Highlight theme -->
-    <link rel="stylesheet" href="/stylesheets/highlight.min.css">
+    <link rel="stylesheet" href="{% raw %}{{ site.baseurl }}{% endraw %}/stylesheets/highlight.min.css">
 
     <!-- Bootstrap javascript -->
-    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="{% raw %}{{ site.baseurl }}{% endraw %}/javascripts/bootstrap.min.js"></script>
 
     <!-- Highlighting javascript -->
-    <script src="/javascripts/highlight.min.js"></script>
+    <script src="{% raw %}{{ site.baseurl }}{% endraw %}/javascripts/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -225,7 +225,7 @@ Populate the page with the following html, leaving the YAML front matter in plac
     <![endif]-->
 
     <!-- Work with mobiles? -->
-    <script src="/javascripts/scale.fix.js"></script>
+    <script src="{% raw %}{{ site.baseurl }}{% endraw %}/javascripts/scale.fix.js"></script>
 </head>
 <body>
 {% raw %}{{content}}{% endraw %}
@@ -283,10 +283,10 @@ layout: default
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="/posts.html">Posts</a></li>
+                    <li><a href="{% raw %}{{ site.baseurl }}{% endraw %}/posts.html">Posts</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="/index.html">About</a></li>
+                    <li class="active"><a href="{% raw %}{{ site.baseurl }}{% endraw %}/index.html">About</a></li>
                 </ul>
             </div>
         </div>
@@ -396,10 +396,10 @@ layout: default
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/posts.html">Posts<span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="{% raw %}{{ site.baseurl }}{% endraw %}/posts.html">Posts<span class="sr-only">(current)</span></a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/index.html">About</a></li>
+          <li><a href="{% raw %}{{ site.baseurl }}{% endraw %}/index.html">About</a></li>
         </ul>
       </div>
     </div>
@@ -442,20 +442,20 @@ Just as a layout was created for the *index.html* and *posts.html* page we are g
     <title>Place your title here</title>
 
     <!-- Bootstrap theme -->
-    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="{% raw %}{{ site.baseurl }}{% endraw %}/stylesheets/bootstrap.min.css">
 
     <!-- Default theme from GitHub -->
-    <link rel="stylesheet" href="/stylesheets/styles.css">
-    <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="{% raw %}{{ site.baseurl }}{% endraw %}/stylesheets/styles.css">
+    <link rel="stylesheet" href="{% raw %}{{ site.baseurl }}{% endraw %}/stylesheets/pygment_trac.css">
 
     <!-- Highlight theme -->
-    <link rel="stylesheet" href="/stylesheets/highlight.min.css">
+    <link rel="stylesheet" href="{% raw %}{{ site.baseurl }}{% endraw %}/stylesheets/highlight.min.css">
 
     <!-- Bootstrap javascript -->
-    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="{% raw %}{{ site.baseurl }}{% endraw %}/javascripts/bootstrap.min.js"></script>
 
     <!-- Highlighting javascript -->
-    <script src="/javascripts/highlight.min.js"></script>
+    <script src="{% raw %}{{ site.baseurl }}{% endraw %}/javascripts/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -464,7 +464,7 @@ Just as a layout was created for the *index.html* and *posts.html* page we are g
     <![endif]-->
 
     <!-- Work with mobiles? -->
-    <script src="/javascripts/scale.fix.js"></script>
+    <script src="{% raw %}{{ site.baseurl }}{% endraw %}/javascripts/scale.fix.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -482,10 +482,10 @@ Just as a layout was created for the *index.html* and *posts.html* page we are g
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="/posts.html">Posts<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="{% raw %}{{ site.baseurl }}{% endraw %}/posts.html">Posts<span class="sr-only">(current)</span></a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/index.html">About</a></li>
+                    <li><a href="{% raw %}{{ site.baseurl }}{% endraw %}/index.html">About</a></li>
                 </ul>
             </div>
         </div>
@@ -520,3 +520,5 @@ published: true
 
 Some content for your post
 ```
+
+Your Blog site is ready to roll.

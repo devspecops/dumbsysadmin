@@ -13,7 +13,7 @@ This post is part of a series
 # A hackers blog
 ***
 
-It takes a lot of effort to start off anything new, this holds true for software projects.
+It takes a lot of effort to start off anything new, this holds true for text driven Blogs as well.
 Consider for a second all the parts that make up a well written software project...
 
   * source control
@@ -24,7 +24,7 @@ Consider for a second all the parts that make up a well written software project
   * layouts for web development
   * the list goes on...
 
-This is what I've done to make this site
+Most of these components I've incorporated into this blog site, and here is how I did it.
 
 The choice for hosting providers will dictate what technological choices you can make. These days I like coding in Ruby,
 and using Git for source control.
@@ -84,5 +84,5 @@ git push
 
 ***
 
-Next in this series Jekyll Framework
+Next in this series [The Jekyll Framework]({% post_url 2015-01-11-the-jekyll-framework %})
 

@@ -13,6 +13,8 @@ paginate:    5
 # Kramdown settings
 kramdown:
   input: GFM
+  hard_wrap: false
+  enable_coderay: false
 
 # Layout
 defaults:
