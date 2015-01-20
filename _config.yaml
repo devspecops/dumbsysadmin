@@ -6,6 +6,7 @@ markdown:    kramdown
 highlighter: pygments
 lsi:         true
 paginate:    5
+baseurl:     /dumbsysadmin
 
 # Extensions
 
