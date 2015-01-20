@@ -678,7 +678,7 @@ Now examine the contents of your modules and look for the interpolated content.
 
 # Conclusion
 
-I hope you liked this journey feel free to add me on linked in and drop me a line.
+If you have any questions feel free to contact me on [Linkedin](http://au.linkedin.com/in/dexterplameras).
 
 CodeStrap has a client/server feature built into the code. I'll reserve that for the next blog post.
 As stated before CodeStrap is still under development. There is still a bit of work to do, but hopefully you get the
