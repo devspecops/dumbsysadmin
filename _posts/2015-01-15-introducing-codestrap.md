@@ -1,5 +1,5 @@
 ---
-excerpt: CodeStrap a Project and Text file initialisation tool
+excerpt: CodeStrap a project and text file code generator
 published: true
 categories: [dev, ops, projects]
 ---
