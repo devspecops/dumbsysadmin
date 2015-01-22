@@ -557,7 +557,7 @@ Edit the puppetmodule/metadata.json file components with template data.
 }
 ```
 
-Note the *stub:erb* line. This is called a modeline, its purpose is to tell CodeStrap that the file has to be render.
+Note the *stub:erb* line. This is called a modeline, its purpose is to tell CodeStrap that the file has to be rendered.
 This was the simple option over files with a .erb extension as trying to escape ERB files needed within the project
 would not have been easy.
 
